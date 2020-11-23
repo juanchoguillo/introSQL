@@ -6,5 +6,8 @@ namespace IntroSQL
         public Departaments()
         {
         }
+
+        public int DepartmentID { get; set; }
+        public string Name { get; set; }
     }
 }
